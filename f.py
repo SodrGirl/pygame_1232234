@@ -94,7 +94,7 @@ while running:
     for fruit in fruits:
         fruit.draw(screen)
     basket.draw(screen) 
-    score_text = font.render(f"Счёт: {score}", True, (255, 255, 255))
+    score_text = font.render(f"Счёт: {score}", True, (240, 255, 255))
     lives_text = font.render(f"Жизни: {lives}", True, (255, 100, 100))
     screen.blit(score_text, (10, 10))
     screen.blit(lives_text, (width - 120, 10))
